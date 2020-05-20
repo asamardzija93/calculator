@@ -1,0 +1,81 @@
+#main-container{
+    height:350px;
+    width:200px;
+    background-color: #081B35;
+    margin:auto;
+    display:flex;
+   flex-direction: column;
+   justify-content: center;
+   padding:10px;
+   border-radius: 25px;
+   color:white; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#display{
+    height:100px;
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative;
+   
+}
+#inputBar{
+    font-size: 20px;
+    font-weight: lighter;
+    height:40px;
+    margin:2px;
+    position:absolute;
+    bottom:54px;
+    right:0px;
+    text-align: center;
+}
+
+#resultWindow{
+    font-size: 40px;
+    height:50px;
+    margin:2px;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    max-width:6ch;
+}
+
+#buttons{
+    height:250px;
+}
+
+#firstRow, #secondRow, #thirdRow, #fourthRow, #fifthRow{
+    line-height:50px;
+    width:200px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align:center; 
+}
+
+.btn{
+    color:white;
+    border:none;
+    outline:none;
+    background-color: #62929E;
+    font-size:19px;
+    height: 46px;
+    margin:2px;
+    width:46px;
+   
+    border-radius: 25px;
+    
+}
+
+.num{
+    background-color: #838C98;
+}
+#zero{
+    width:96px;
+}
+
+#ce, #c{
+    width:72px;
+}
