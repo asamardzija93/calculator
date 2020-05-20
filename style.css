@@ -1,4 +1,11 @@
+body{
+    background-color: #838C98;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 #main-container{
+    box-shadow: 5px 10px 10px black;
     height:350px;
     width:200px;
     background-color: #081B35;
